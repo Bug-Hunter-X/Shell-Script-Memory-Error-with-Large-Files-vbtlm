@@ -1,0 +1,1 @@
+This repository contains a shell script that demonstrates a common error when processing large files in shell. The script attempts to read the entire file into memory before processing each line. This can lead to memory errors if the file is too large. A solution is provided that processes the file in chunks to avoid this issue.
